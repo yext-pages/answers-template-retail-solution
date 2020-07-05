@@ -19,7 +19,7 @@
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
     },
     **/
-    /**
+
     "Facets": {
       "title": "", // The title to display above the facets
       "expand": true, // Allow the user to expand and collapse the facets
@@ -27,7 +27,7 @@
       "searchOnChange": true // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
       // Additional options are available in the documentation
     },
-    **/
+
     "SearchBar": {
       "placeholderText": "Search" // The placeholder text in the answers search bar
     },

@@ -9,7 +9,7 @@
       {{> templates/vertical-grid/script/pagination }}
       {{> templates/vertical-grid/script/locationbias }}
       {{!-- {{> templates/vertical-grid/script/sortoptions }} --}}
-      {{!-- {{> templates/vertical-grid/script/facets }} --}}
+      {{> templates/vertical-grid/script/facets }} 
       {{!-- {{> templates/vertical-grid/script/filterbox }} --}}
       {{!-- {{> templates/vertical-grid/script/qasubmission }} --}}
     {{/script/core}}
@@ -24,11 +24,11 @@
         {{> templates/vertical-grid/markup/spellcheck }}
         <div class="Answers-filtersAndResults">
           <!-- Uncomment the following div if you want to include filters, facets, or sort options  -->
-          {{!-- <div class="Answers-filtersWrapper"> --}}
+          <div class="Answers-filtersWrapper"> 
             {{!-- {{> templates/vertical-grid/markup/sortoptions }} --}}
             {{!-- {{> templates/vertical-grid/markup/filterbox }} --}}
-            {{!-- {{> templates/vertical-grid/markup/facets }} --}}
-          {{!-- </div> --}}
+            {{> templates/vertical-grid/markup/facets }} 
+           </div> 
           {{> templates/vertical-grid/markup/verticalresults }}
         </div>
         {{> templates/vertical-grid/markup/pagination }}
