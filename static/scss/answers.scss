@@ -40,10 +40,15 @@
   {
       ul, ol
       {
-        margin-bottom: .5rem;
-        margin-left: 2rem;
         list-style-position: outside;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
       }
   }
+  .HitchhikerFaqAccordion-details li 
+    {
+    margin-bottom: 0;
+    }
   
 }
