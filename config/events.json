@@ -11,7 +11,7 @@
      }
   },  
   "componentSettings": {
-    /**
+    /** 
     "QASubmission": {
       "entityId": "", // Set the ID of the entity to use for Q&A submissions, must be of entity type "Organization"
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
