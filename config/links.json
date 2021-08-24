@@ -52,9 +52,8 @@
       "noResults": {
         "visible": true 
       },
-      "Pagination": {
-        "showFirstAndLastButton": false
-      }
+      "showFirstAndLastButton": false
+      
     }
   },
   // Configuration used to define the look and feel of the vertical, both on this page and, by default,
