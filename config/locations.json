@@ -25,18 +25,6 @@
       // Additional options are available in the documentation
     },
     **/
-    /**
-    "DirectAnswer": {
-      "types": {
-        "FEATURED_SNIPPET": {
-          "cardType": "documentsearch-standard"
-        },
-        "FIELD_VALUE": {
-          "cardType": "allfields-standard"
-        }
-      }
-    },
-    **/
     "FilterLink": {
       "changeFiltersText": "filter results", // Text that displays by default
       "resetFiltersText": "reset filters", // Text when filters are applied
