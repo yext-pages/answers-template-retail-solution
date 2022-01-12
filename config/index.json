@@ -4,10 +4,10 @@
   // "canonicalUrl": "", // The link tag for canonical URL as well as the meta tag for open graph url
   // "keywords": "", // The meta tag for keywords
   // "pageSettings": {
-  //    "search": {
-  //      "defaultInitialSearch": "" // Enter a default search term
-  //    }
-  // },  
+  //   "search": {
+  //     "defaultInitialSearch": "" // Enter a default search term, should be your pinned query
+  //   }
+  // },
   "componentSettings": {
     /**
     "QASubmission": {
@@ -16,10 +16,26 @@
     },
     **/
     "DirectAnswer": {
-      "defaultCard": "allfields-standard"
+      "types": {
+        "FEATURED_SNIPPET": {
+          "cardType": "documentsearch-standard"
+        },
+        "FIELD_VALUE": {
+          "cardType": "allfields-standard"
+        }
+      }
     },
     "SearchBar": {
-      "placeholderText": "Search" // The placeholder text in the answers search bar
+      "placeholderText": "Search", // The placeholder text in the answers search bar
+      "loadingIndicator": {
+        "display": true //Optional, whether to include a loading indicator on seachbar
+        // "iconUrl": "" //Optional, use custom icon url instead of the default loading indicator animation
+      },
+      "voiceSearch": {
+        "enabled": false // Whether or not voice search is enabled
+        // "customMicIconUrl": "", // Path to override the voice start icon
+        // "customListeningIconUrl": "" // Path to override the voice stop icon
+      }
     }
   },
   "verticalsToConfig": {
